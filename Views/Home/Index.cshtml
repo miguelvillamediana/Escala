@@ -13,7 +13,7 @@
                                 <p class="text-white">Carrega as listas de novos missionarios para a separação e envio de emails.</p>
                                 <form method="post" id="fileForm" enctype="multipart/form-data" asp-controller="Home" asp-action="Index">
                                     <input type="file" name="file"/>
-                                    <a class="text-white text-sm font-weight-bold mb-0 icon-move-right mt-auto" href="javascript:document.getElementById('fileForm').submit();">
+                                    <a class="text-white text-sm font-weight-bold mb-0 icon-move-right mt-auto" style="cursor:pointer;" onclick="sendPost()">
                                         Carregar
                                         <i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
                                     </a>

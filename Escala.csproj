@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="UploadedFiles\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\css\alertify.min.css" />
     <None Include="wwwroot\css\themes\bootstrap.min.css" />
     <None Include="wwwroot\css\themes\default.min.css" />
