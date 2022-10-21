@@ -72,9 +72,9 @@ namespace Escala.Controllers
         }
         public async Task sendEmail(string emails, string idioma)
         {
-            string emailMaster = "barb_bueno@brazil.mtc.byu.edu";
-            string password = "vqrhebjqixzfnndk";
-            string emailCopy = "jvilla95@churchofjesuschrist.org";
+            string emailMaster = "";
+            string password = "";
+            string emailCopy = "";
             try
             {
                 SmtpClient smtp = new SmtpClient();
